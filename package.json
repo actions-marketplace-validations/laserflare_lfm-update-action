@@ -1,0 +1,16 @@
+{
+  "name": "lfm-update-action",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laserflare/lfm-update-action.git"
+  },
+  "author": "MadFox <madfox@laserflare.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laserflare/lfm-update-action/issues"
+  },
+  "homepage": "https://github.com/laserflare/lfm-update-action#readme"
+}
