@@ -1,16 +1,22 @@
 {
-  "name": "lfm-update-action",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/laserflare/lfm-update-action.git"
-  },
-  "author": "MadFox <madfox@laserflare.net>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/laserflare/lfm-update-action/issues"
-  },
-  "homepage": "https://github.com/laserflare/lfm-update-action#readme"
+	"name": "lfm-update-action",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/laserflare/lfm-update-action.git"
+	},
+	"author": "MadFox <madfox@laserflare.net>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/laserflare/lfm-update-action/issues"
+	},
+	"homepage": "https://github.com/laserflare/lfm-update-action#readme",
+	"dependencies": {
+		"@actions/core": "^1.5.0",
+		"@actions/github": "^5.0.0",
+		"graphql": "^15.5.3",
+		"graphql-request": "^3.5.0"
+	}
 }

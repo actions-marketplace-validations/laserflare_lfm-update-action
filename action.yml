@@ -1,0 +1,24 @@
+name: 'Publish resource update on LFM'
+description: 'Publish resource update on LFM'
+inputs:
+  resource-id:
+    description: 'Which resource should be updated'
+    required: true
+  version:
+    description: 'Update version'
+    required: false
+  title:
+    description: 'Update post title (optional if description specified)'
+    required: false
+  subtitle:
+    description: 'Update post subtitle'
+    required: false
+  description:
+    description: 'Update post description (optional if title specified, MD supported)'
+    required: false
+outputs:
+  message:
+    description: 'Message from the server'
+runs:
+  using: 'node12'
+  main: 'index.js'
