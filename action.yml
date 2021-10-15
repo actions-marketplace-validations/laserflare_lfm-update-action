@@ -1,9 +1,17 @@
-name: 'Publish resource update on LFM'
+name: 'Update resource at LFM'
 description: 'Publish resource update on LFM'
+icon: 'activity'
+color: 'purple'
 inputs:
   resource-id:
     description: 'Which resource should be updated'
     required: true
+  api-token:
+    description: 'Access token'
+    required: true
+  file-path:
+    description: 'Local path to the file you want to append'
+    required: false
   version:
     description: 'Update version'
     required: false
